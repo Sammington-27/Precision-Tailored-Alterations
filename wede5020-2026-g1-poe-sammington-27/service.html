@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Tailored & Alterations | Clothing Alterations and Custom Tailoring</title>
+    <meta name="description" content="Professional clothing alterations, repairs and custom tailoring. Perfect fit, every time. Book your alteration today.">
+    <meta name="keywords" content="tailor, clothing alterations, custom tailoring, suit alterations, trouser hemming, garment repairs">
+    <link rel="stylesheet" href="./CSS/style.css">
+   <script src="js/script.js"></script>
+<body>
+    <header>
+        <h1>The Services we offer </h1>
+        <p class="tagline">Perfect Fit. Every Time</p>
+      <nav>
+        <!--navigation-->
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main id="service">
+    <p>At Precision Tailors &Alterations, we provide professional tailoring and alteration services for students, professional
+        and members of the local community. Whether you need a simple adjustments or a more detailred alteration,we help 
+        ensure your clothing fits comfortably and look it's best.
+
+    </p>
+    <div class="grid-container">
+    <div id="col1">
+    <h2>Trouser Alterations</h2>
+    <p>We alter trousers to achieve a comfortable and flattering fit. Services included adjusting the length, waist and overall
+        fit of trousers, making them suitable for everyday wear, school, work or specail occasions.
+    </p>
+    </div>
+    <div id="col2">
+    <img src="image/How to Tailor Your Jeans, Chinos and Trousers % %.jpg" height="250" width="300">
+    <h2>Suit Alterations</h2>
+    <p>Our suit alteration service helps customers achieve a more polished and comfortable fit. We can adjust suit trousers And
+        jackets to better suit the customer's measurements and preferences.
+    </p>
+    </div>
+    <div id="col.3">
+    <img src="image/breasted suit men 😎.jpg" height="300" width="300"><!--The IIE,2026-->
+
+    <h2>Dress Alterations</h2>
+    <p>We alter dresses to improve their fit, including adjustments to length,waist and other areas where required. This service is suitable
+        for everyday clothing as well as special occasions.</p>
+    </div>
+    <div id="col4">
+    <img src="image/breasted suit men.jpg height "300" width="300">
+        <img src="image/Tailor Course Online Beginners - Learn Essential Skills Fast.jpg" height="300" width="300">
+    <h2>Shirt Alterations</h2>
+    <p>We provide adjustments to shirts to improve their fir and comfort,including sleeve and skilled
+        adjustments where appropriate.
+    </p>
+</div>
+    <div id="col5">
+    <img src="image/Can Men’s Shirts Be Altered_.jpg" height="250" width="300">
+    <h2>Clothing Repairs</h2>
+    <p> We repair common clothing issues such as loose seams, damaged stitching,missing buttons and minor tears, helping
+        customers extend the life of their favourite garments.
+    </p>
+    </div>
+    <div id="col6">
+    <img src="image/How to Replace a Broken Zipper - Threads.jpg" height="250 " width="300">
+    <h2>Custom Tailoring</h2>
+    <p>For customers looking for a more personalised fit,we offer tailoring based on individual measurements and requirements
+
+    </p>
+    </div>
+    <div id="col7">
+    <img src="image/Semwal Bespoke Tailor.jpg" height="250" width="300">
+    </div>
+    <section id="price-list">
+    <h2>Our Price List</h2>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search services, e.g. suit">
+        <select id="sortSelect">
+            <option value="default">Sort by...</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="name-asc">Name: A-Z</option>
+        </select>
+    </div>
+    <div id="productContainer"></div>
+    <p id="noResults"></p>
+</section>
+
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <button type="button" class="accordion-button" onclick="toggleAnswer('answer1')">How long does an alteration take?</button>
+    <div id="answer1" class="answer"><p>Most alterations take 2 to 5 days. Custom tailoring takes about 2 weeks.</p></div>
+    <button type="button" class="accordion-button" onclick="toggleAnswer('answer2')">Do I need an appointment?</button>
+    <div id="answer2" class="answer"><p>Walk-ins are welcome, but you can also book through our enquiry page.</p></div>
+    <button type="button" class="accordion-button" onclick="toggleAnswer('answer3')">Can you repair a broken zip?</button>
+    <div id="answer3" class="answer"><p>Yes. We replace zips and fix seams, buttons and small tears.</p></div>
+</section>
+
+<section id="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery">
+        <img src="image/trouser-alterations.jpg" alt="Trousers being hemmed" onclick="openLightbox(this)">
+        <img src="image/suit-alterations.jpg" alt="Suit jacket alteration" onclick="openLightbox(this)">
+        <img src="image/clothing-repairs.jpg" alt="Clothing repair" onclick="openLightbox(this)">
+    </div>
+</section>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImage" src="" alt="Enlarged view">
+</div>
+    </main>
+    <footer>
+        <p>&copy;2026 Precision Tailored Alterations. All rights reserved</p>
+    </footer>
+
+
+    
+</body>
+</html>
